@@ -1,0 +1,70 @@
+/* estilo realidad aumentada*/
+
+body{background-color:rosybrown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+#wrapper{width: 80%;
+        margin: auto;}
+
+header{background-image: url("imagenes/header.jpg");
+        background-size: cover;
+        height: 250px;
+        background-position: right;
+        position: relative; }
+
+header #titulo{position: absolute;
+            top:100px;
+            left:70px;
+            color: white;
+            font-size: 1em;
+            font-weight: bold;}
+
+nav{background-color:#12A8C1}
+
+nav ul{margin:0;
+        list-style-type: none;}
+            
+nav ul li{display: inline-block;
+            padding: 10px;}
+            
+nav ul li a{text-decoration: none;
+            font-weight: bold;
+            color:white;}
+            
+nav ul li a:hover{color: white;
+                    background-color:rosybrown;}
+
+main{background-color: silver;
+    padding: 2%;}
+                
+main h1{margin:0;
+        color:rosybrown;
+        text-align: center;}
+                
+main p{color:black;
+        text-align: justify;
+        text-indent: 2em;}
+                
+main img{width: 20%;
+        margin:2.2%;
+        box-shadow: rgba(0, 0, 0, 0.726) 10px 10px 10px 10px;
+        border-radius: 10%;}
+
+@media only screen and (max-width:900px){
+                        main img{width: 40%;
+                        margin:4%}
+        }
+
+        
+@media only screen and (max-width:600px){
+                        main img{width: 80%;
+                        margin: 8%}}
+             
+footer{background-color:#12A8C1;
+        padding: 20px; }
+        
+footer p{text-align: center;
+        margin: 0;
+        font-size: 0.8em; }
+                
+            
